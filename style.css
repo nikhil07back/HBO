@@ -1,0 +1,634 @@
+/* raff work  */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+#row {
+    height: 60px;
+    width: 100%;
+    background-color: #fff;
+   
+}
+
+
+.row_one{
+
+    float: left;
+    margin-left: 50px;
+
+    
+}
+
+#row a{
+    margin-top: 40px;
+    margin:20px;
+    font-size: 15px;
+    color:#888c8d;
+    text-align: center;
+
+}
+
+/* right sign in the box of yellow  */
+
+
+.right{
+    margin-right: 90px;
+    color:#888c8d;
+    font-size: 15px;
+}
+
+/* container is ready for know  */
+
+
+#container{
+
+    outline: 2px soild white;
+    padding: 20em;
+    background-image: url("image/dargN.jpg");
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+    background-position:center;
+    background-size: 100% 660px;
+    
+ 
+}
+
+.bg-img{
+
+   color: #fff;
+   left: 20%;
+   margin-right: 550px;
+   position:absolute;
+   margin-top: 100px;
+   padding: 10px;
+
+}
+
+h1{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 15px;
+    font-family: monospace;
+}
+
+.btn-1{
+    background-color: #0096FF;
+    height: 50px;
+    width: 140px;
+    margin-top: 3%;
+    color: white;
+    font-family: monospace;
+    border: 10px;
+    margin: 5px;
+
+  
+
+    
+
+}
+
+.btn-2{
+    background-color: #0096FF;
+    height: 50px;
+    width: 140px;
+    margin-top: 20px;
+    color: white;
+    border: 10px;
+    margin: 5px;
+   
+}
+
+/* box one and box section  */
+
+
+.box_one{
+    text-align: center;
+    color: white;
+
+}
+
+.box{
+    float: left;
+    margin: 10px;
+    height: 370px;
+    width: 320px;
+    background-color: #EEEEEE;
+    margin-left: 30px;
+    animation: mymove 5s infinite;
+    border: 3px solid;
+    padding: 5px;
+    box-shadow: 5px 10px #EEEEEE;
+
+}
+
+
+@keyframes mymove {
+    50% {box-shadow: 10px 20px 30px rgb(47, 47, 48);}
+    
+}
+
+p{
+
+    color: black;
+    text-align: left;
+
+}
+ 
+a p{
+    margin: 4px;
+text-decoration: underline;
+font-size: 18px;
+border-radius: 4px;
+font-family: monospace;
+color: #AAC4FF;
+
+}
+
+/* min hight and width  */
+
+.min{
+    height: 100px;
+    width: 100%;
+   background-color:#EEEEEE;
+    margin-top: 30px;
+    
+}
+
+.min h4{
+    
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.rig{
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+
+}
+
+hr{
+
+   text-decoration: underline;
+}
+/* enny style  */
+
+.enny{
+    background-color:white;
+    text-align: center;
+    margin-top: 10%;
+    font-family: sans-serif;
+}
+
+.box_two{
+
+    float: left;
+    margin: 10px;
+    height: 270px;
+    width: 300px;
+    
+    margin: 20px 20px 3px 40px;
+ 
+    /* padding: 2px;
+    box-shadow: 5px 5px #EEEEEE;  */
+
+
+}
+
+.box_two a{
+
+    text-decoration: underline;
+    color: black;
+    text-align: left;
+    margin: 10px;
+
+}
+
+/* thios is also a bc gold and bc  */
+
+
+ 
+.bc_one{
+    width: 100%;
+
+} 
+
+video{
+    height: 300px;
+    width: 500px;
+    float: right;
+    margin-right: 500px;
+
+}
+
+.bc_one{
+
+    background-image:url("image/bc.jpg");
+    outline: 2px soild rgb(255, 255, 255);
+    padding: 20em;
+    background-repeat: no-repeat;
+    background-position:center; 
+    background-size: 100% 600px;
+    position: relative;
+
+
+    
+}
+
+.be h1 p{
+    color:black;
+    float: right;
+    margin-right: 300px;
+    position: absolute;
+    margin-left: 50%;
+
+}
+
+.visit{
+
+    height: 20px;
+    width: 140px;
+    margin: 40px;
+    color:#fff;
+    background-color: #060707;
+    border: #060707;
+    font-family: sans-serif;
+    font-size: 15px;
+    border-radius: 5px solid;
+
+}
+
+
+/* menu is the start in the work  */
+
+.call{
+    margin-left: 50px;
+    width: 40%;
+    float: left;
+}
+
+
+.call h1{
+    text-align: center;
+    margin: 10px 20px 40px 60px;
+
+} 
+
+.call h3 p{
+    color: #060707;
+    font-size: 20px;
+    margin: 40px;
+
+}
+.call a{
+   color: #0096FF;
+   font-size: 25px;
+   margin: 5px;
+
+  
+}
+
+/* scroll bar time w3 */
+
+
+
+.scroll{
+
+    width: 630px;
+    height: 150px;
+    overflow-y: scroll;
+    overflow: scroll solid;
+    scrollbar-width: large;
+    float: right;
+    margin-right: 138px;
+    margin-top: 160px;
+
+}
+
+
+.scroll h3 p{
+
+    font-size: 14px;
+    color: #888c8d;
+    text-align: left;
+
+}
+.scroll img{
+    width: 50%;
+}
+
+
+
+/* this is also box sides for four  */
+
+.box_four h2{
+    text-align: center;
+   font-size: 50px;
+}
+
+.box_four p{
+    color: #060707;
+    font-size: 17px;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.boxs{
+    height: 440px;
+    width: 330px;
+  background-color:white;
+    float: left;
+    margin: 23px;
+    margin-left: 20px;
+    animation: mymove 5s infinite;
+}
+
+
+@keyframes mymove {
+    50% {box-shadow: 10px 20px 30px rgb(157, 157, 158);}
+  }
+
+.boxs img{
+    height: 240px;
+    
+}
+
+.boxs h6{
+
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+
+.boxs p{
+    text-align: left;
+}
+
+.boxs a{
+    
+    margin: 10px;
+    color: rgb(98, 98, 189);
+   font-size: 20px;
+}
+
+/* this background color and five boxsss */
+
+.navbar{
+    height: 440px;
+    background: url(image/purple.png);
+    outline: 2px soild rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-position:center; 
+    background-size: 100% 600px;
+    position: relative;
+}
+
+
+
+.navbar h1{
+    text-align: center;
+    color: #fff;
+    margin: 30px;
+}
+
+ .nav_one
+{
+    height: 260px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    margin-left: 20%;
+    background-color: #fff;
+    margin-left: 25px;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    50% {box-shadow: 10px 20px 30px rgb(14, 14, 17);}
+  }
+
+.nav_one a{
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+/* video editing in the section */
+
+.vid video{
+
+    margin: 10px 40px 30px 100px;
+    
+}
+
+.vid span p{
+    font-size: 14px;
+    color: #888c8d;
+    font-family: sans-serif;
+   text-decoration: solid; 
+   margin: 20px;
+   margin-left: 100px;
+   line-height: 1.7;
+}
+
+/* x box is start in the inside  */
+
+.box_container h1{
+    text-align: center;
+    size: 20px;
+    color: #888c8d;
+}
+
+.xbox{
+    height: 460px;
+    float: left;
+    margin: 20px;
+    margin-left: 5%;
+    width: 260px;
+   background-color: #fff;
+   animation:  mymove 5s infinite;
+}
+
+   @keyframes mymove {
+    50% {box-shadow: 10px 20px 30px rgb(14, 14, 17);}
+    
+  }
+
+  
+
+.xbox a{
+    margin: 14px;
+    color: #060707;
+    
+}
+.xbox p{
+    padding: 10px;
+}
+
+/* tym ps  */
+
+.clas h1{
+    
+    text-align: center;
+    padding: 30px;
+
+}
+.clas p{
+    text-align: center;
+    padding: 20px;
+}
+.clas img{
+    width: 70%;
+    height: 240px;
+    margin-left: 230px;   
+}
+
+/* this is for four row and eight  */
+
+.row_nine{
+    text-align: center;
+    margin: 30px;
+}
+
+.col_nine{
+
+    float: left;
+    margin: 30px;
+    margin-left: 50px;
+    height: 340px;
+    width: 270px;
+    background-color:#fff;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove  {
+    50%{
+        box-shadow: 10px 20px 30px #060707;
+    }
+    
+}
+
+.col_nine h6{
+    font-size: 14px;
+    text-align: left;
+    margin: 5px;
+
+}
+.col_nine a{
+
+    color: blue;
+    margin: 5px;
+    float: left;
+
+}
+
+/* this is second last section of the mid tree  */
+
+.content h1{
+   
+    margin: 30px;
+}
+
+.container{
+    height: 340px;
+    width: 380px;
+    background-color: #fff;
+    margin: 20px;
+    float: left;
+    margin-left: 40px;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    50%{
+        box-shadow: rgb(88, 88, 89) 10px 20px 30px ;
+    }
+    
+}
+.container h3{
+
+    text-align: left;
+    color: #060707;
+    font-size: 14px;
+    margin: 5px;
+
+}
+
+.container a{
+    float: left;
+    margin: 6px;
+    color: blue;
+
+
+}
+
+.nav_im{
+   margin-top: 20px;
+   
+}
+
+/* this is last section hbo */
+.hbo img{
+    margin: 20px;
+}
+
+.hbo ul a li{
+
+    float: left;
+    text-decoration: underline;
+    padding-left: 120px;
+    color: #060707;
+}
+
+.hbo{
+
+    text-align: center;
+    padding: 20px;
+    background-color:rgb(109, 107, 107);
+    color: #060707;
+}
+
+/* foot works is here  */
+.Foot{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(109, 107, 107);
+    color: #060707;
+}
+.Foot ul a li{
+    float: left;
+    text-decoration: underline;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    text-align: center;
+    color: #060707;
+
+}
+
+.copy{
+    background-color:rgb(109, 107, 107);
+    font-family: sans-serif;
+    padding: 10px;
+}
